@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"com.cursojava.practica.mundopc.nucleo"},{"l":"com.cursojava.practica.mundopc.presentaciones"},{"l":"com.cursojava.practica.ventas"},{"l":"com.cursojava.teoria"}]
