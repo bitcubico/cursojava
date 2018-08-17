@@ -1,3 +1,6 @@
+/**
+ * Derechos reservados a bitcubico.com
+ */
 package com.cursojava.teoria;
 
 public class Operadores {

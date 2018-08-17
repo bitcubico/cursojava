@@ -1,10 +1,31 @@
+/**
+ * Derechos reservados a bitcubico.com
+ */
 package com.cursojava.practica.mundopc.nucleo;
 
+/**
+ * Esta clase describe los elementos básicos para la conformación de un
+ * teclado
+ * 
+ * @author Mauricio Montoya Medrano
+ * @version 1.0.0
+ */
 public class Monitor extends Producto {
 	private final short id;
 	private short tamanio;
 	private static short contadorInstancias;
 
+	/**
+	 * Constructor para inicializar los atributos requeridos para el funcionamiento
+	 * de la clase
+	 * 
+	 * @param marca
+	 *            Marca del monitor
+	 * @param precio
+	 *            Precio del monitor
+	 * @param tamanio
+	 * 			  Tamaño del monitor
+	 */
 	public Monitor(String marca, int precio, short tamanio) {
 		super(marca, precio);
 		id = ++contadorInstancias;
@@ -12,15 +33,19 @@ public class Monitor extends Producto {
 	}
 
 	/**
-	 * @return the tamanio
+	 * Indica el tamaño del monitor
+	 * 
+	 * @return short El tamaño del monitor
 	 */
 	public short getTamanio() {
 		return tamanio;
 	}
 
 	/**
+	 * Asigna el tamaño del monitor
+	 * 
 	 * @param tamanio
-	 *            the tamanio to set
+	 *            El tamaño del monitor
 	 */
 	public void setTamanio(short tamanio) {
 		this.tamanio = tamanio;
@@ -31,7 +56,7 @@ public class Monitor extends Producto {
 	 */
 	@Override
 	public String toString() {
-		return "Monitor [Id = " + id + ", " + super.toString() + ", TamaÃ±o = " + tamanio + "]";
+		return "Monitor [Id = " + id + ", " + super.toString() + ", Tamaño = " + tamanio + "]";
 	}
 	
 }

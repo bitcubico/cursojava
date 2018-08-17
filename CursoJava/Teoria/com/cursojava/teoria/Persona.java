@@ -1,3 +1,6 @@
+/**
+ * Derechos reservados a bitcubico.com
+ */
 package com.cursojava.teoria;
 
 import java.time.LocalDateTime;

@@ -1,9 +1,23 @@
+/**
+ * Derechos reservados a bitcubico.com
+ */
 package com.cursojava.practica.mundopc.presentaciones;
 
 import com.cursojava.practica.mundopc.nucleo.*;
 
+/**
+ * Clase para probar el funcionamiento del ejercicio mundopc
+ * 
+ * @author Mauricio Montoya Medrano
+ * @version 1.0.0
+ */
 public class MundoPc {
 
+	/**
+	 * Método que ejecuta las pruebas del ejercicio mundopc
+	 * 
+	 * @param args Argumentos de la línea de comandos
+	 */
 	public static void main(String[] args) {
 		Teclado t1 = new Teclado("USB", "Genius", 50000);
 		Teclado t2 = new Teclado("Bluetoo", "Genius", 150000);

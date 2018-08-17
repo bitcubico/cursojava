@@ -13,10 +13,15 @@ public class Producto implements AutoCloseable {
 		super();
 		idProducto = ++contadorProductos;
 	}
-	
+
 	/**
+	 * Constructor para inicializar los atributos requeridos para el funcionamiento
+	 * de la clase
+	 * 
 	 * @param nombre
+	 *            Nombre del producto
 	 * @param precio
+	 *            Precio del producto
 	 */
 	public Producto(String nombre, double precio) {
 		this();
@@ -24,36 +29,42 @@ public class Producto implements AutoCloseable {
 		this.precio = precio;
 	}
 
-
 	/**
-	 * @return the nombre
+	 * Indica el nombre del producto
+	 * 
+	 * @return String El nombre del producto
 	 */
 	public String getNombre() {
 		return nombre;
 	}
 
 	/**
+	 * Asigna el nombre del producto
+	 * 
 	 * @param nombre
-	 *            the nombre to set
+	 *            El nombre del producto
 	 */
 	public void setNombre(String nombre) {
 		this.nombre = nombre.trim();
 	}
 
 	/**
-	 * @return the precio
+	 * Indica el precio del producto
+	 * @return El precio del producto
 	 */
 	public double getPrecio() {
 		return precio;
 	}
 
 	/**
+	 * Asigna el precio del producto
+	 * 
 	 * @param precio
-	 *            the precio to set
+	 *            El precio del producto
 	 */
-	public void setPrecio(double precion) {
+	public void setPrecio(double precio) {
 		if (precio > 0)
-			this.precio = precion;
+			this.precio = precio;
 	}
 
 	/*
@@ -69,6 +80,6 @@ public class Producto implements AutoCloseable {
 	@Override
 	public void close() throws Exception {
 		// TODO Auto-generated method stub
-		
+
 	}
 }
