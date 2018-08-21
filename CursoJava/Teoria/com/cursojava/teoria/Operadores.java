@@ -18,7 +18,7 @@ public class Operadores {
 		System.out.println("d = c - a = " + d);
 		System.out.println("e = -d = " + e);
 		
-		System.out.println("\nOperador Módulo (residuo):");
+		System.out.println("\nOperador MÃ³dulo (residuo):");
 		System.out.println("x mod 10 = a % 2 = " + a % 2);
 		
 		System.out.println("\nOperador Compuesto:");
@@ -54,9 +54,9 @@ public class Operadores {
 		int min = (a < b) ? a : b;
 		System.out.println("(a < b) ? a : b = " + min);
 		
-		System.out.println("\nOperador de Asignación:");
+		System.out.println("\nOperador de AsignaciÃ³n:");
 		int i, j, k;
-		//cadena de asignación
+		//cadena de asignaciÃ³n
 		i = j = k = 100; // valor de x, y, and z igual a 100
 		System.out.println("i = j = k = 100");
 		System.out.println("i = " + i);

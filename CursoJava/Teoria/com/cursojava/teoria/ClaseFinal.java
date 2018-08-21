@@ -4,7 +4,7 @@
 package com.cursojava.teoria;
 
 /**
- * Esta clase al ser final no puede ser heredada, es considerada como la última
+ * Esta clase al ser final no puede ser heredada, es considerada como la Ãºltima
  * en la cadena de herencias
  * 
  * @author mauricio.montoya
@@ -19,14 +19,14 @@ public final class ClaseFinal {
 	public static final int valorConstante = 57;
 	
 	/**
-	 * Esta asignación instancia un objeto del tipo persona y este retorna la referencia
+	 * Esta asignaciÃ³n instancia un objeto del tipo persona y este retorna la referencia
 	 * del mismo. Al ser final, la referencia al objeto almacenada en la variable persona
-	 * no podría ser modificada mas los valores del objeto si.
+	 * no podrÃ­a ser modificada mas los valores del objeto si.
 	 */
 	public static final Persona persona = new Persona(57, "Mauricio", "Montoya Medrano");
 	
 	/**
-	 * Este método al ser final no puede ser sobre escrito, en el caso en que la clase no fuera final
+	 * Este mÃ©todo al ser final no puede ser sobre escrito, en el caso en que la clase no fuera final
 	 */
 	public final void metodoFinal() {
 		

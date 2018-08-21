@@ -4,7 +4,7 @@
 package com.cursojava.practica.mundopc.nucleo;
 
 /**
- * Esta clase describe los elementos b·sicos para la conformaciÛn de un
+ * Esta clase describe los elementos b√°sicos para la conformaci√≥n de un
  * teclado
  * 
  * @author Mauricio Montoya Medrano

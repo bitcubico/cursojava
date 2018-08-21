@@ -4,7 +4,7 @@
 package com.cursojava.practica.mundopc.nucleo;
 
 /**
- * Esta clase describe los elementos básicos para la conformación de un
+ * Esta clase describe los elementos bÃ¡sicos para la conformaciÃ³n de un
  * teclado
  * 
  * @author Mauricio Montoya Medrano
@@ -24,7 +24,7 @@ public class Monitor extends Producto {
 	 * @param precio
 	 *            Precio del monitor
 	 * @param tamanio
-	 * 			  Tamaño del monitor
+	 * 			  TamaÃ±o del monitor
 	 */
 	public Monitor(String marca, int precio, short tamanio) {
 		super(marca, precio);
@@ -33,19 +33,19 @@ public class Monitor extends Producto {
 	}
 
 	/**
-	 * Indica el tamaño del monitor
+	 * Indica el tamaÃ±o del monitor
 	 * 
-	 * @return short El tamaño del monitor
+	 * @return short El tamaï¿½o del monitor
 	 */
 	public short getTamanio() {
 		return tamanio;
 	}
 
 	/**
-	 * Asigna el tamaño del monitor
+	 * Asigna el tamaÃ±o del monitor
 	 * 
 	 * @param tamanio
-	 *            El tamaño del monitor
+	 *            El tamaÃ±o del monitor
 	 */
 	public void setTamanio(short tamanio) {
 		this.tamanio = tamanio;
@@ -56,7 +56,7 @@ public class Monitor extends Producto {
 	 */
 	@Override
 	public String toString() {
-		return "Monitor [Id = " + id + ", " + super.toString() + ", Tamaño = " + tamanio + "]";
+		return "Monitor [Id = " + id + ", " + super.toString() + ", TamaÃ±o = " + tamanio + "]";
 	}
 	
 }

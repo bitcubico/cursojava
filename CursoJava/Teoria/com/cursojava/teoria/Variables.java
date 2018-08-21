@@ -10,7 +10,7 @@ public class Variables {
 		boolean bool1;
 		//inicializacion
 		bool1 = true;
-		//Declaración e inicialización
+		//DeclaraciÃ³n e inicializaciÃ³n
 		boolean bool2 = false;
 		System.out.println("Valor bool1:" + bool1);
 		System.out.println("Valor bool2:" + bool2);
@@ -30,7 +30,7 @@ public class Variables {
 		System.out.println("");
 		
 		//Variable char, declaracion e inicializacion en una sola linea
-		//La primera declaración es en UNICODE
+		//La primera declaraciÃ³n es en UNICODE
 		//http://www.icursos.net/referencias/TablaUnicode.html		
 		char ch1 = 65, ch2 = 'A';
 		System.out.println("Valor char1:" + ch1);

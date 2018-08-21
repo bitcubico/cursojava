@@ -4,7 +4,7 @@
 package com.cursojava.practica.mundopc.nucleo;
 
 /**
- * Esta clase describe los elementos básicos para la conformación de una orden
+ * Esta clase describe los elementos bï¿½sicos para la conformaciï¿½n de una orden
  * 
  * @author Mauricio Montoya Medrano
  * @version 1.0.0
@@ -26,8 +26,8 @@ public class Orden {
 	}
 
 	/**
-	 * Agrega una computadora al listado de computadoras. Esta se agregará siempre y
-	 * cuando exista espacio en la lista aún.
+	 * Agrega una computadora al listado de computadoras. Esta se agregarï¿½ siempre y
+	 * cuando exista espacio en la lista aï¿½n.
 	 * 
 	 * @param computadora
 	 *            Propiedades de la computadora
@@ -38,7 +38,7 @@ public class Orden {
 		else
 			System.out
 					.println(computadora != null
-							? "Se ha superado el máximo de computadoras (" + limiteComputadorasPorOrden
+							? "Se ha superado el mÃ¡ximo de computadoras (" + limiteComputadorasPorOrden
 									+ ") permitidos por orden"
 							: "La computadora que intenta agregar es null");
 	}

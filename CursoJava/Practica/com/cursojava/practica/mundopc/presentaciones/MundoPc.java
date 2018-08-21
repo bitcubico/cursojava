@@ -14,9 +14,9 @@ import com.cursojava.practica.mundopc.nucleo.*;
 public class MundoPc {
 
 	/**
-	 * Método que ejecuta las pruebas del ejercicio mundopc
+	 * MÃ©todo que ejecuta las pruebas del ejercicio mundopc
 	 * 
-	 * @param args Argumentos de la línea de comandos
+	 * @param args Argumentos de la lÃ­nea de comandos
 	 */
 	public static void main(String[] args) {
 		Teclado t1 = new Teclado("USB", "Genius", 50000);

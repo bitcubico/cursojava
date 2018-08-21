@@ -4,8 +4,8 @@
 package com.cursojava.practica.mundopc.nucleo;
 
 /**
- * Esta clase describe los elementos b醩icos para la conformaci髇 de un
- * rat髇 o mouse
+ * Esta clase describe los elementos b谩sicos para la conformaci贸n de un
+ * rat锟絥 o mouse
  * 
  * @author Mauricio Montoya Medrano
  * @version 1.0.0
@@ -20,11 +20,11 @@ public class Raton extends DispositivoEntrada {
 	 * de la clase
 	 * 
 	 * @param tipoEntrada
-	 *            Tipo de entrada del rat髇
+	 *            Tipo de entrada del rat贸n
 	 * @param marca
-	 *            Marca del rat髇
+	 *            Marca del rat贸n
 	 * @param precio
-	 *            Precio del rat髇
+	 *            Precio del rat贸n
 	 */
 	public Raton(String tipoEntrada, String marca, int precio) {
 		super(tipoEntrada, marca, precio);

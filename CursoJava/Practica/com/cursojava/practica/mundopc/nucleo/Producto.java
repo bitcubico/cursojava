@@ -4,7 +4,7 @@
 package com.cursojava.practica.mundopc.nucleo;
 
 /**
- * Esta clase abstracta describe los elementos b·sicos para la conformaciÛn de
+ * Esta clase abstracta describe los elementos b√°sicos para la conformaci√≥n de
  * un producto
  * 
  * @author Mauricio Montoya Medrano

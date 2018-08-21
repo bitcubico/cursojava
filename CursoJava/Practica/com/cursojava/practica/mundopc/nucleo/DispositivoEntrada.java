@@ -4,8 +4,8 @@
 package com.cursojava.practica.mundopc.nucleo;
 
 /**
- * Esta clase abstracta describe los elementos b·sicos de un dispositivo
- * tecnolÛgico de entrada
+ * Esta clase abstracta describe los elementos b√°sicos de un dispositivo
+ * tecnol√≥gico de entrada
  * 
  * @author Mauricio Montoya Medrano
  * @version 1.0.0
