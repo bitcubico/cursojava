@@ -3,8 +3,8 @@
  */
 package com.cursojava.practica.enumeraciones;
 
-import com.cursojava.teoria.DiasEnum;
-import com.cursojava.teoria.MesesEnum;
+import com.cursojava.teoria.enumeradores.DiasEnum;
+import com.cursojava.teoria.enumeradores.MesesEnum;
 
 /**
  * Esta clase describe los elementos básicos para la conformación de una

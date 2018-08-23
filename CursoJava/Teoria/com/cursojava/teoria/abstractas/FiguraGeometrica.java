@@ -4,7 +4,10 @@
 package com.cursojava.teoria.abstractas;
 
 /**
- * Las clases abstractas se usan para definir funcionalidades heredables entre objetos de la misma familia
+ * Las clases abstractas se usan para encapsular funcionalidades común entre las clases de la misma familia, mientras
+ * que las interfaces definen comportamientos relacionados que pueden pertenecer a cualquier clase. Por esta razón las
+ * clases abstractas deben utilizarse en clases estrechamente relacionadas, mientras que las interfaces son mas
+ * utilizadas para proporcionar funcionalidad común a clases no relacionadas entre sí
  *
  * @author mauricio.montoya
  * @version 1.0.0
