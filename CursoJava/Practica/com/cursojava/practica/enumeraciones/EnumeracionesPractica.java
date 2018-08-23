@@ -1,5 +1,5 @@
-/**
- * Derechos reservados a bitcubico.com
+/*
+  Derechos reservados a bitcubico.com
  */
 package com.cursojava.practica.enumeraciones;
 
@@ -7,8 +7,8 @@ import com.cursojava.teoria.DiasEnum;
 import com.cursojava.teoria.MesesEnum;
 
 /**
- * Esta clase describe los elementos básicos para la conformacióde una
- * enumerción de meses
+ * Esta clase describe los elementos básicos para la conformación de una
+ * enumeración de meses
  * 
  * @author Mauricio Montoya Medrano
  * @version 1.0.0
@@ -40,7 +40,7 @@ public class EnumeracionesPractica {
 		GetNumeroDiasMes(MesesEnum.DICIEMBRE);
 	}
 
-	public static void GetNumeroDiaSemana(DiasEnum dia) {
+	private static void GetNumeroDiaSemana(DiasEnum dia) {
 		String mensaje = "día de la semana " + dia.toString();
 		switch (dia) {
 		case LUNES:
@@ -70,7 +70,7 @@ public class EnumeracionesPractica {
 		}
 	}
 	
-	public static void GetNumeroDiasMes(MesesEnum mes) {
+	private static void GetNumeroDiasMes(MesesEnum mes) {
 		String mensaje = "El mes " + mes.toString() + " tiene: ";
 		switch (mes) {
 		case ENERO:
@@ -97,7 +97,7 @@ public class EnumeracionesPractica {
 		}
 	}
 
-	public static void Imprimir(String mensaje) {
+	private static void Imprimir(String mensaje) {
 		System.out.println(mensaje);
 	}
 }

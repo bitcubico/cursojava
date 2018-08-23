@@ -1,5 +1,5 @@
-/**
- * Derechos reservados a bitcubico.com
+/*
+  Derechos reservados a bitcubico.com
  */
 package com.cursojava.teoria;
 
