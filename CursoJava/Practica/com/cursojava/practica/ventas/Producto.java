@@ -1,5 +1,7 @@
 package com.cursojava.practica.ventas;
 
+import com.cursojava.teoria.ManejoExcepciones.ArgumentoVacioException;
+
 public class Producto implements AutoCloseable {
 	private final int idProducto;
 	private String nombre;
@@ -17,16 +19,14 @@ public class Producto implements AutoCloseable {
 	/**
 	 * Constructor para inicializar los atributos requeridos para el funcionamiento
 	 * de la clase
-	 * 
-	 * @param nombre
-	 *            Nombre del producto
-	 * @param precio
-	 *            Precio del producto
+	 * @param nombre Nombre del producto
+	 * @param precio Precio del producto
+	 * @throws ArgumentoVacioException
 	 */
-	public Producto(String nombre, double precio) {
+	public Producto(String nombre, double precio) throws ArgumentoVacioException {
 		this();
-		this.nombre = nombre;
-		this.precio = precio;
+		setNombre(nombre);
+		setPrecio(precio);
 	}
 
 	/**
@@ -40,11 +40,12 @@ public class Producto implements AutoCloseable {
 
 	/**
 	 * Asigna el nombre del producto
-	 * 
-	 * @param nombre
-	 *            El nombre del producto
+	 * @param nombre Asigna el nombre del producto
+	 * @throws ArgumentoVacioException
 	 */
-	public void setNombre(String nombre) {
+	public void setNombre(String nombre) throws ArgumentoVacioException {
+		if(nombre.trim().isEmpty())
+			throw new ArgumentoVacioException("El argumento que intenta asignar esta vacío");
 		this.nombre = nombre.trim();
 	}
 
