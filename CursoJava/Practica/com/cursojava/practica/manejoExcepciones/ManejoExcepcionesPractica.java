@@ -1,4 +1,4 @@
-package com.cursojava.practica.ManejoExcepciones;
+package com.cursojava.practica.manejoExcepciones;
 
 import com.cursojava.practica.ventas.Producto;
 import com.cursojava.teoria.ManejoExcepciones.ArgumentoVacioException;
