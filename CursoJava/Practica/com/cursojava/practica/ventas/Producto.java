@@ -1,6 +1,6 @@
 package com.cursojava.practica.ventas;
 
-import com.cursojava.teoria.ManejoExcepciones.ArgumentoVacioException;
+import com.cursojava.teoria.manejoExcepciones.ArgumentoVacioException;
 
 public class Producto implements AutoCloseable {
 	private final int idProducto;

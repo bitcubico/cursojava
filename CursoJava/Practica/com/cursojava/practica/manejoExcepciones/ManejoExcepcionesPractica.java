@@ -1,7 +1,7 @@
 package com.cursojava.practica.manejoExcepciones;
 
 import com.cursojava.practica.ventas.Producto;
-import com.cursojava.teoria.ManejoExcepciones.ArgumentoVacioException;
+import com.cursojava.teoria.manejoExcepciones.ArgumentoVacioException;
 
 /**
  * @author Mauricio Montoya Medrano

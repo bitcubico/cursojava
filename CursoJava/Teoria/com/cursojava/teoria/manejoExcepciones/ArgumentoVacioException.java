@@ -1,7 +1,7 @@
 /*
   Derechos reservados a bitcubico.com
  */
-package com.cursojava.teoria.ManejoExcepciones;
+package com.cursojava.teoria.manejoExcepciones;
 
 
 /**

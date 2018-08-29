@@ -8,7 +8,7 @@ import java.util.*;
  * @author Mauricio Montoya Medrano
  * @version 1.0.0
  */
-public class genericas {
+public class Genericas {
     public static void main(String[] args) {
         System.out.println("Clase GENÉRICA |--------->");
         ClaseGenerica<Integer> claseGenerica = new ClaseGenerica<>(15);
